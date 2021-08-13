@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body, html{
+    width:100%;
+    height: 100%;
+}
+
+main{
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction:column;
+}
+
+main div.line{
+    flex:1;
+
+    display: flex;
+    flex-direction:row;
+}
+
+main div.line div.space{
+    flex: 1;
+    margin: 1px;
+    border: 2px solid #46f523;
+}
+
+main div.line div.space:hover{
+    background-color: rgb(235, 235, 235);
+}
